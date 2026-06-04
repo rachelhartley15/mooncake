@@ -1,0 +1,14 @@
+{
+  "name": "mooncake-workspace",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev:reporter": "pnpm --filter 01-intel-reporter dev",
+    "build:all": "pnpm -r build"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
