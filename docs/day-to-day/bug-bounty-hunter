@@ -55,4 +55,46 @@
 #### Level 3
 
     - guess coin flip outcome 10x in a row
-    
+    - use https://remix.ethereum.org/#lang=en&optimize&runs=200&evmVersion&version=soljson-v0.8.34+commit.80d5c536.js
+    - build a msart contract that essentially calculates the coin flip
+    - need to have smart contract so it happens in the same block
+    - get the alst block, -1, then divide by the constant FACTOR
+    - needed to create a smart contract that references and calls another using the instance address to connect them    
+
+#### Level 4
+
+    - claim ownership of contract
+    - use remix.ethereum.org
+    - current owner 0x2C2307bb8824a0AbBf2CC7D76d8e63374D2f8446
+    - change owner function won't change owner if the transaction origin is the same as the message sender
+    - to hack it create a smart contract to call this function so the sender is different?
+
+#### Level 5
+
+    - get more than 20 tokens
+    - current balance is 20
+    - can't send more than what I have
+    - take from the balance sender and give to the balance to
+    - create smart contract that will have a different message sender and send to my address
+    - question is where to get an account that has tokens to send
+    - wrong approach, explore the vulnerability of the veersion of solidity used    
+    - Before Solidity version 0.8.0, the language did not have built-in protection for math calculations going out of bounds. If you had 0 of something and subtracted 1, the blockchain wouldn't crash or throw an error. Instead, it would underflow, wrapping all the way around to the absolute maximum value an unsigned 256-bit integer can hold
+    - just trasnfer more tokens than I have to the level address
+
+#### Level 6
+
+    - claim ownership of the instance
+    - In Solidity, delegatecall is a low-level opcode that allows a contract to execute code from a target contract while keeping the execution context of the calling contract. It is the architectural foundation for on-chain libraries, proxy patterns, and upgradeable smart contracts.
+    - Fallback methods (fallback() and receive()) are the catch-all execution structures that trigger when no other criteria match. They serve as the doorway for proxy patterns using delegatecall.
+    - need the pwn method ID to then send the ID and message into the second contracts fallback message to trigger the delegate call
+
+#### Level 7
+
+    - get balance greater than 0
+    - use remix
+    - contract address 0xf43a7C67B83939Eb4258A182d59b98176EdD3120
+    - getBalance("0xf43a7C67B83939Eb4258A182d59b98176EdD3120") is zero
+    - contract Froce is empty
+    - send transaction to the contract instance?
+    - used fallback function payable with selfdestrcut call to force address to receive funds   
+
