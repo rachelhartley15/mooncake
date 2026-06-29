@@ -12,3 +12,40 @@
 - Immunefi (https://immunefi.com/)
 - Bounteous (https://bounteous.com/)
 - Sherlock (https://audits.sherlock.xyz/bug-bounties)
+
+## Training Sites
+
+- https://ethernaut.openzeppelin.com/level/0
+- https://www.damnvulnerabledefi.xyz/
+- https://capturetheether.com/challenges/
+- https://www.hackthebox.com/
+- https://tryhackme.com/
+- https://overthewire.org/wargames/
+- https://cryptohack.org/
+- https://cryptopals.com/
+- https://www.hacker101.com/
+
+## Jun 26
+
+### Starting Ethernaut OpenZeppelin
+
+#### Level 0
+
+- Set up metamask wallet
+- Send sepolian eth from faucet
+- Connect to sepolia testnet
+- Deploy contract
+- Solve challenge
+
+#### Level 1
+
+- become owner and reduce balance to 0
+- account has 0.0035 eth and 3500000000000000 wei
+- current owner 0x3c34A342b2aF5e885FcaA3800dB5B205fEfa3ffB
+- needed to 1 contribute money using contribute function
+- then send a transaction not using one of the fucntions to exploit the receive() making me the owner
+- call withdraw() as this will take out the entire balance
+
+#### Level 2
+
+
