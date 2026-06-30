@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_targetInstanceAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernaut/force.sol": "ForceAttacker"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernaut/force.sol": {
+			"keccak256": "0xa221ea55c87e8f601a6bd9f3a4e0531f9be460bfd0bd428507b59348c27c31b9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d83d6ac348adaa5e547b5b7caaa01d153d517792099d1d513fb96b5157a7772d",
+				"dweb:/ipfs/QmWmZMZBz86ZyCrD585zWPBFayxJUanwHbyPTto1nrGJy1"
+			]
+		}
+	},
+	"version": 1
+}
