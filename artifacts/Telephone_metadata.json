@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernaut/telephone.sol": "Telephone"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernaut/telephone.sol": {
+			"keccak256": "0xa895c08021b1305868bc9c775b4ccd44aa2bf6d68ba2a853d7aa96b3df5fc37e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b993ff6bf6891721ea1e58145153456c6a24286a1408a0bd43244180e52a6dc2",
+				"dweb:/ipfs/QmR5bLouVzcwqsyQmDcXMXovdyS8vrxRMvpPtega3bpaRX"
+			]
+		}
+	},
+	"version": 1
+}

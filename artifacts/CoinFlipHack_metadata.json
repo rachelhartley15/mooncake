@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.34+commit.80d5c536"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_ethernautLevelAddress",
+						"type": "address"
+					}
+				],
+				"name": "hackFlip",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernaut/coinflip.sol": "CoinFlipHack"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernaut/coinflip.sol": {
+			"keccak256": "0x1c4826244c2d9f5bbe07315f3a0516ebe29f3d130b6580705f36b425571b180a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://500ef7e4dfd28dfcf1d84b7e9b842c8237b1cd219adeb4f156b0905b552626b1",
+				"dweb:/ipfs/Qmdh3pFsjrTYJehigpLJ8SPSzbomRQPsya8PHJM2UsnJee"
+			]
+		}
+	},
+	"version": 1
+}
