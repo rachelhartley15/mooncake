@@ -1,43 +1,50 @@
-h1 {
+* {
+    font-family: Helvetica;
+}
 
+h1 {
+    font-weight: bold;
 }
 
 h2 {
-
+    font-weight: bold;
 }
 
 h3 {
-
+    font-weight: bold;
+    color: black;
 }
 
 p {
-
+    color: black;
 }
 
 .title {
-
+    background-image: url("../images/patterns.jpg");
+    font-size: 100px;
+    color: khaki;
+    text-align: center;
 }
 
 .header {
-
-}
-
-.bold {
-
+    font-size: 32px;
+    color: white;
+    text-align: left;
 }
 
 .price {
-
+    font-weight: bold;
+    color: blue;
 }
 
 .green {
-
+    background-color: mediumspringgreen;
 }
 
 .red {
-
+    background-color: lightcoral;
 }
 
 .blue {
-    
+    background-color: skyblue;
 }
