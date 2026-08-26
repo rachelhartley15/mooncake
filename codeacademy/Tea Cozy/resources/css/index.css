@@ -1,0 +1,49 @@
+* {
+    font-family: helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+p {
+
+}
+
+.header {
+    height: 69px;
+    padding: 10px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.logo {
+    height: 50px;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: underline;
+}
+
+.topnav a:hover {
+    color: seagreen;
+}
