@@ -1,0 +1,257 @@
+/* ==========================================
+   1. GLOBAL STYLES & RESET
+   ========================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+    text-align: center; /* Enforces all text centered globally */
+}
+
+/* Helper to center inline-flex or elements if needed */
+h1, h2, h3, p {
+    text-align: center;
+}
+
+
+/* ==========================================
+   2. HEADER & NAVIGATION SECTION
+   ========================================== */
+header {
+    /* Background cover photo for the header */
+    background: url('../images/cover.jpg') no-repeat center center/cover;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+/* Floating white background wrapper only behind the header text */
+header h1 {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    font-size: 2.5rem;
+    color: #1a252f;
+    letter-spacing: 1px;
+}
+
+/* Sticky or clean navigation bar */
+nav {
+    background-color: #1a252f;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #1abc9c;
+}
+
+
+/* ==========================================
+   3. MAIN CONTENT CONTAINER
+   ========================================== */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+section > h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+}
+
+/* Mission statement styling */
+#mission {
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+#mission p {
+    font-size: 1.15rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+/* ==========================================
+   4. PORTFOLIO SECTION (2 per row, text on right)
+   ========================================== */
+#portfolio {
+    background: #ffffff;
+    padding: 3rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* Flex container for portfolio items (2 per row layout) */
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#portfolio > h2 {
+    width: 100%; /* Force header to span the top */
+}
+
+#portfolio > p {
+    width: 100%;
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+/* Individual portfolio item card */
+#portfolio > div {
+    display: flex;
+    align-items: center;
+    background: #fdfdfd;
+    border: 1px solid #e2e8f0;
+    padding: 1.25rem;
+    border-radius: 8px;
+    /* Flex-grow & shrink: Target ~45% width to fit 2 items per row, grows/shrinks */
+    flex: 1 1 45%;
+    min-width: 280px;
+    max-width: 480px;
+    gap: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+}
+
+#portfolio img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+#portfolio div p {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #2c3e50;
+    text-align: left; /* Text on the right of image looks cleaner aligned left relative to itself */
+}
+
+
+/* ==========================================
+   5. INVESTMENT TEAM SECTION (Cover photo background, 3 in a row, text below)
+   ========================================== */
+#investment {
+    /* Background cover photo for the investment section */
+    background: linear-gradient(rgba(26, 37, 47, 0.85), rgba(26, 37, 47, 0.85)), url('../images/background.jpg') no-repeat center center/cover;
+    padding: 4rem 2rem;
+    border-radius: 8px;
+    color: #ffffff;
+    /* Flex container for the whole section wrapper to align cards */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#investment > h2 {
+    width: 100%;
+    color: #ffffff;
+}
+
+/* Individual team member card layout (3 in a row with equal spacing) */
+#investment > div {
+    display: flex;
+    flex-direction: column; /* Stacks image on top, text below */
+    align-items: center;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 2rem 1.5rem;
+    border-radius: 8px;
+    /* Flex grow/shrink: target ~30% width for 3-per-row alignment */
+    flex: 1 1 28%;
+    min-width: 240px;
+    max-width: 320px;
+    transition: transform 0.3s ease;
+}
+
+#investment > div:hover {
+    transform: translateY(-5px);
+}
+
+#investment img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%; /* Gives team photos a nice circle look */
+    margin-bottom: 1rem;
+    border: 3px solid #1abc9c;
+}
+
+#investment .team-member-name {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 0.25rem;
+}
+
+#investment .team-member-title {
+    font-size: 0.95rem;
+    color: #1abc9c;
+}
+
+
+/* ==========================================
+   6. FOOTER SECTION
+   ========================================== */
+footer {
+    background-color: #1a252f;
+    color: #ffffff;
+    padding: 3rem 2rem;
+    margin-top: 2rem;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0.5rem 0;
+    color: #cbd5e1;
+}
+
+footer .copyright {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    margin-top: 1.5rem;
+}
