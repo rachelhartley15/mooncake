@@ -126,7 +126,7 @@ section {
     max-width: 800px;
     margin: 0 auto;
     padding: 6rem 2rem;
-    background: linear-gradient(rgba(8, 10, 8, 0.9), rgba(8, 10, 8, 0.9)), url('resources/images/cover.jpg');
+    background: linear-gradient(rgba(8, 10, 8, 0.9), rgba(8, 10, 8, 0.9)), url('../images/cover.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -173,6 +173,7 @@ section {
     align-items: stretch;
     width: 100%;
     transition: transform 0.3s ease, border-color 0.3s ease;
+    margin-bottom: 1rem;
 }
 
 .event-card:hover {
@@ -240,18 +241,18 @@ blockquote::before, blockquote::after {
     margin-bottom: 3rem;
 }
 
+/* Desktop: Always exactly 3 columns in a single row */
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     width: 100%;
 }
 
-/* Bulletproof gallery image constraint */
 .gallery-grid img {
     width: 100%;
     max-width: 100%;
-    height: 180px;
+    height: 200px;
     object-fit: cover;
     display: block;
     border-radius: 15px;
@@ -271,11 +272,9 @@ blockquote::before, blockquote::after {
     text-align: center;
     padding: 8rem 1.5rem;
     margin: 4rem 0;
-    background: linear-gradient(rgba(8, 10, 8, 0.85), rgba(8, 10, 8, 0.85)), url('resources/images/background.jpg');
+    background: linear-gradient(rgba(8, 10, 8, 0.85), rgba(8, 10, 8, 0.85)), url('../images/background.jpg');
     background-size: cover;
     background-position: center;
-    border-radius: 30px;
-    border: 1px solid var(--dark-green);
 }
 
 .cta-section h2 {
@@ -401,12 +400,12 @@ footer {
     }
 
     .gallery-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 
     .gallery-grid img {
-        height: 140px;
+        height: 180px;
     }
 
     .cta-section {
