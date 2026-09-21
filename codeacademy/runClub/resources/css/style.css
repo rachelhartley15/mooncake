@@ -120,13 +120,17 @@ section {
     font-weight: 300;
 }
 
-/* Manifesto / About Section */
+/* Manifesto / About Section with Background Image */
 #about {
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
-    background: linear-gradient(rgba(8, 10, 8, 0.85), rgba(8, 10, 8, 0.85)), url('resources/images/cover.jpg');
+    padding: 6rem 2rem;
+    background: linear-gradient(rgba(8, 10, 8, 0.9), rgba(8, 10, 8, 0.9)), url('resources/images/cover.jpg');
     background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    border: 1px solid var(--dark-green);
 }
 
 #about h2 {
@@ -174,9 +178,11 @@ section {
     border-color: var(--leaf-green);
 }
 
+/* Optimized image sizing with percentage-based scaling and maximum constraint */
 .event-card img {
     width: 100%;
-    height: 260px;
+    max-height: 220px;
+    height: auto;
     object-fit: cover;
     display: block;
     border-bottom: 1px solid var(--dark-green);
@@ -234,9 +240,11 @@ blockquote::before, blockquote::after {
     gap: 1.5rem;
 }
 
+/* Optimized gallery image sizing with percentage width and bounded height */
 .gallery-grid img {
     width: 100%;
-    height: 280px;
+    max-height: 200px;
+    height: auto;
     object-fit: cover;
     border-radius: 15px;
     border: 1px solid var(--dark-green);
@@ -338,6 +346,10 @@ footer {
         font-size: 0.95rem;
     }
 
+    #about {
+        padding: 4rem 1rem;
+    }
+
     #about h2, #events h2, #community h2, .cta-section h2 {
         font-size: 1.8rem;
     }
@@ -352,7 +364,7 @@ footer {
     }
 
     .event-card img {
-        height: 200px;
+        max-height: 180px;
     }
 
     blockquote {
@@ -370,7 +382,7 @@ footer {
     }
 
     .gallery-grid img {
-        height: 180px;
+        max-height: 140px;
     }
 
     .cta-section {
