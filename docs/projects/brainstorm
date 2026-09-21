@@ -1,0 +1,35 @@
+# Project Ideas
+
+## Personal Governance Framework
+
+**Objective:** Build a reusable governance framework for solo development that is cost-free (time only), simple, leverages existing documentation and standards, applies best practices across multiple domains (project management, coding, cybersecurity, testing, architecture, product, data), and provides clear guidance for activities and next steps in technical projects and AI work with defined governance rules and quality standards.
+
+### MVP Milestones
+
+- [ ] Milestone 1: Research and catalog existing standards, frameworks, and best practices across all target domains (project management, coding, cybersecurity, testing, architecture, product, data) to identify reusable components
+- [ ] Milestone 2: Create the core governance framework structure with clear rules, standards, and decision trees for each domain area, focusing on simplicity and solo-developer applicability
+- [ ] Milestone 3: Build implementation guides and checklists that provide actionable next steps for technical projects and AI initiatives, ensuring the framework is practical and immediately usable
+
+---
+
+## All-Around Athlete iPhone App
+
+**Objective:** Build a comprehensive iPhone app for multi-sport athletes that integrates with Garmin for data sync, pushes training schedules to calendar, tracks nutrition (water, calories, food intake including exercise fueling), manages workout schedules (manual, coach, or AI-generated across bike, run, swim, HIIT, mobility, weight lifting, low intensity strength), sets event goals (Ironman, marathon, HYROX, lifting goals), creates repeatable workout routines, and provides performance analytics (sleep, predictions, PRs, goal tracking).
+
+### MVP Milestones
+
+- [ ] Milestone 1: Build core app structure with Garmin integration, calendar sync for training schedules, and basic workout logging for all activity types (bike, run, swim, HIIT, mobility, weight lifting, low intensity strength)
+- [ ] Milestone 2: Implement nutrition tracking module (water, calories, food intake with exercise fueling), goal setting with target dates, and workout schedule management (manual entry, coach input, AI generation)
+- [ ] Milestone 3: Create performance dashboard with sleep data, performance predictions, personal records tracking, goal progress visualization, and repeatable workout routine library
+
+---
+
+## Science Research Newsletter App
+
+**Objective:** Build a curated science research newsletter app that delivers weekly feeds based on user interests (e.g., health & fitness), pulling only from reputable peer-reviewed sources, with study metadata including participant count, demographics (animals, men, women), funding sources, a quality scoring system for quick assessment (small initial vs mass scale studies), overall conclusions, and analysis of potential impact on average people or society.
+
+### MVP Milestones
+
+- [ ] Milestone 1: Develop content aggregation system that identifies and scrapes recent studies from reputable peer-reviewed sources across multiple research domains
+- [ ] Milestone 2: Build study analysis engine that extracts metadata (participant count, demographics, funding), calculates quality scores, generates conclusions, and writes impact analysis for average person/society
+- [ ] Milestone 3: Create user interface for topic selection, weekly newsletter delivery, and study presentation with clear scoring, disclaimers, and actionable insights
