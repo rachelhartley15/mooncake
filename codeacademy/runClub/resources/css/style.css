@@ -129,8 +129,6 @@ section {
     background: linear-gradient(rgba(8, 10, 8, 0.9), rgba(8, 10, 8, 0.9)), url('resources/images/cover.jpg');
     background-size: cover;
     background-position: center;
-    border-radius: 20px;
-    border: 1px solid var(--dark-green);
 }
 
 #about h2 {
@@ -159,17 +157,21 @@ section {
 
 .events-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2.5rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .event-card {
     background-color: var(--card-black);
     border: 1px solid var(--dark-green);
-    border-radius: 25px 8px 25px 8px; /* Organic shape feel */
+    border-radius: 25px 8px 25px 8px;
     overflow: hidden;
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Image on left, text container on right */
+    align-items: stretch;
+    width: 100%;
     transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
@@ -178,32 +180,36 @@ section {
     border-color: var(--leaf-green);
 }
 
-/* Optimized image sizing with percentage-based scaling and maximum constraint */
+/* Image locked on the left side (~25% width, restricted height) */
 .event-card img {
-    width: 100%;
-    max-height: 220px;
-    height: auto;
+    flex: 0 0 25%;
+    width: 25%;
+    max-width: 180px;
+    height: 180px;
     object-fit: cover;
     display: block;
-    border-bottom: 1px solid var(--dark-green);
+    border-right: 1px solid var(--dark-green);
 }
 
+/* Text container locked on the right side */
 .event-card-content {
+    flex: 1;
+    min-width: 0; /* Prevents text block from breaking out of constraints */
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    flex-grow: 1;
+    justify-content: center;
+    gap: 0.8rem;
 }
 
 .event-card h3 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: var(--text-white);
 }
 
 .event-card p {
     color: var(--text-gray);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
 }
 
 /* Quote Section */
@@ -238,14 +244,16 @@ blockquote::before, blockquote::after {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
+    width: 100%;
 }
 
-/* Optimized gallery image sizing with percentage width and bounded height */
+/* Bulletproof gallery image constraint */
 .gallery-grid img {
     width: 100%;
-    max-height: 200px;
-    height: auto;
+    max-width: 100%;
+    height: 180px;
     object-fit: cover;
+    display: block;
     border-radius: 15px;
     border: 1px solid var(--dark-green);
     transition: transform 0.4s ease, filter 0.4s ease;
@@ -363,8 +371,24 @@ footer {
         gap: 1.5rem;
     }
 
+    /* On mobile, switch event cards back to stacked layout with a controlled image height */
+    .event-card {
+        flex-direction: column;
+    }
+
     .event-card img {
-        max-height: 180px;
+        flex: unset;
+        width: 100%;
+        max-width: 100%;
+        height: 160px;
+        min-height: 160px;
+        border-right: none;
+        border-bottom: 1px solid var(--dark-green);
+    }
+
+    .event-card-content {
+        width: 100%;
+        padding: 1.5rem;
     }
 
     blockquote {
@@ -382,7 +406,7 @@ footer {
     }
 
     .gallery-grid img {
-        max-height: 140px;
+        height: 140px;
     }
 
     .cta-section {
