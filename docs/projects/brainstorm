@@ -33,3 +33,15 @@
 - [ ] Milestone 1: Develop content aggregation system that identifies and scrapes recent studies from reputable peer-reviewed sources across multiple research domains
 - [ ] Milestone 2: Build study analysis engine that extracts metadata (participant count, demographics, funding), calculates quality scores, generates conclusions, and writes impact analysis for average person/society
 - [ ] Milestone 3: Create user interface for topic selection, weekly newsletter delivery, and study presentation with clear scoring, disclaimers, and actionable insights
+
+---
+
+## Home Cleaning Maintenance App
+
+**Objective:** Build a home cleaning maintenance app/website for homeowners and renters with customizable cleaning reminders (weekly, monthly, bi-yearly, yearly, custom intervals), user-specific inventory selection (floor types, appliances like washing machines, air filters), equipment tracking (vacuum, mop & bucket, robot vacuum), household factors (pets, children, usage frequency), detailed cleaning instructions with ingredients, guidance on cleaning vs sanitizing vs disinfecting, frequency explanations, and FAQ section covering topics like freshening home smell and differences between cleaning, sanitizing, deodorizing, and disinfecting.
+
+### MVP Milestones
+
+- [ ] Milestone 1: Build core reminder system with flexible scheduling (weekly, monthly, bi-yearly, yearly, custom) and user profile setup for household inventory, equipment, and factors (pets, children, usage patterns)
+- [ ] Milestone 2: Create comprehensive cleaning database with detailed instructions, ingredient lists, and guidance on cleaning vs sanitizing vs disinfecting for each item type, with frequency recommendations based on household factors
+- [ ] Milestone 3: Develop FAQ section and educational content about cleaning concepts (freshening smells, differences between cleaning methods), user interface for reminder management, and progress tracking
