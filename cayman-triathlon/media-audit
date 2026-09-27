@@ -1,47 +1,169 @@
 # Cayman Triathlon — Marketing, Communications & Media Audit
- 
-**Prepared by:** [Your Name]
-**Date:** [Date]
-**Review period covered:** [e.g. Jan–Sep 2026]
- 
+
+**Prepared by:** Rachel Hartley
+**Date:** September 26, 2026
+**Review period covered:** Start of year through September 30, 2026 (Q3 end)
+
 ---
- 
+
 ## 1. Channels Inventory (Current State)
-- **Website:** [platform, last updated, who has access]
-- **Social media:** [platforms, follower counts, posting frequency, who manages]
-- **Email/newsletter:** [list size, tool used, send frequency]
-- **Print/physical:** [flyers, banners, race-day signage, sponsor boards]
-- **Press/media relations:** [local news contacts, past coverage]
+- **Website:** [triathlon.ky](https://www.triathlon.ky/) — built on Squarespace. Intended role: informational hub covering events, volunteering, coaching, and youth programs (not a transaction/sign-up site). Newsletter signup block on homepage is **not configured with a storage location**, so sign-ups may not be captured — worth fixing regardless of the site's hub role. Last updated: unknown. Access/ownership: unknown — needs confirming.
+- **Membership/registration:** Handled via a separate site, [racecaribbean.net](https://racecaribbean.net/shop/memberships/cayman-islands-triathlon-association-annual-membership/), run by a fellow board member — this split (triathlon.ky = info hub, racecaribbean.net = sign-up) is intentional. **Future goal:** stand up our own Cayman Triathlon membership covering annual insurance plus added benefits (discounts at shops/races, access to coaching/training events) — see Section 8.
+- **Social media:**
+  - Facebook: [CaymanIslandsTriathlonAssociation](https://www.facebook.com/CaymanIslandsTriathlonAssociation/) — ~1.4k followers. Posting is irregular, loosely tied to events, no consistent cadence.
+  - Instagram: [@cayman_triathlon](https://www.instagram.com/cayman_triathlon/?hl=en) — 193 followers, 15 posts total, **nothing posted since 2016**.
+  - Twitter/X: [@CaymanTriathlon](https://twitter.com/CaymanTriathlon) — 177 followers, **no posts since 2019**, effectively dormant.
+  - Reason for dormancy (per board president): deprioritized as available resources diminished, not a deliberate strategic retirement.
+  - Direction: **revive all three channels**, with a distinct plan per platform (not a copy-paste approach across them).
+  - Manager(s) for each platform: unknown — needs confirming.
+- **Email/newsletter:** Sent via Mailchimp. List size, send frequency, and content owner: unknown — needs confirming. (See website finding above — signup form issue may be limiting list growth.)
+- **Print/physical:** Every event has its own race-day signage, sponsor boards, and flyers (designed per-event, not from a shared template/system). Additional physical media — t-shirts, hats, medals — design/ownership process unknown.
+- **Press/media relations:** Unclear — no known local news contacts or record of past coverage. Needs investigating.
+
 ## 2. Brand & Messaging Consistency
-- Logo/brand guidelines: [exist? followed?]
-- Tone/voice: [consistent across channels?]
-- Photo/video asset library: [exists? organized? usable?]
+- Logo/brand guidelines: **No single consistent logo.** Facebook's logo matches the website; Instagram uses a different logo. Facebook and the website are the most up-to-date and should be the reference point going forward. **No known brand guideline document exists — needs confirming.** A guideline should be created covering: correct logo usage, color palette + how to apply it, and typography/fonts.
+- Tone/voice: Currently unclear/inconsistent — hard to assess with so little recent posting (esp. Instagram, dormant since 2016). Goal: consistency across channels and events so everything feels recognizably "Cayman Triathlon," while allowing intentional flexibility — different events can target different audiences and have slight tonal differences on top of the shared base identity.
+- Photo/video asset library: Unknown whether one currently exists — needs confirming. Also need to define, going forward: where photos/videos/documents are stored, and usage guidance (what photos can be used for, any restrictions).
+- Physical/merch branding (t-shirts, hats, medals): Design process and level of consistency unknown — needs confirming, including whether design is sponsor-determined.
+
 ## 3. Content & Cadence
-- Current posting cadence: [what, how often, by whom]
-- Event promotion timeline: [pre/during/post-race process]
-- Gaps: [dead channels, stale content, missed events]
+- Current posting cadence: Website — events added as they become known. Facebook — updates posted as events happen (reactive, not scheduled). No consistent cadence beyond this. Newsletter cadence unknown — needs confirming.
+- Event promotion timeline: **None currently.** No defined pre/during/post-race promotion process — content goes up as events happen rather than being planned in advance.
+- Volunteer recruitment: **No clear, consistent call-out for volunteers across any platform.**
+- Gaps:
+  - Instagram and Twitter/X are effectively dead channels (see Section 1)
+  - Some events are missing from the Facebook page entirely
+  - No event promotion timeline/plan exists
+  - No structured volunteer messaging
+
 ## 4. Audience & Engagement
-- Audience size/demographics per channel: [notes]
-- Engagement quality: [comments, shares, sign-ups driven]
-- Member/participant feedback: [if any collected]
+- Audience size/demographics per channel:
+  - Instagram: 193 followers, 15 posts total, nothing posted since 2016
+  - Twitter/X: 177 followers, nothing posted since 2019
+  - Facebook: 1.4k followers — posted about the most recent event (Stoke and Stride), but nothing before that since November 2025
+  - Website: up to date with event listings, but **not up to date with current board member info**. Newsletter signup link appears broken (consistent with Section 1 finding).
+  - No demographic breakdown available for any channel — needs confirming (Meta/Instagram insights, if accessible, would give this for FB/IG).
+- Engagement quality: **No engagement metrics currently tracked** (likes, comments, shares, click-throughs, sign-ups driven by posts, etc.)
+- Member/participant feedback: **None collected.**
+- Direction: focus on growing these platforms, and start measuring engagement — with a specific eye on how engagement translates into real-world outcomes (event participation, volunteer sign-ups), not just follower counts.
+
 ## 5. Sponsor & Partner Visibility
 - Current sponsor acknowledgment: [across which channels]
 - Contractual obligations: [being met / missed]
+
 ## 6. Tools, Access & Ownership
 - Login/admin access: [who has what]
 - Handover documentation: [from predecessor, if any]
 - Budget currently allocated: [amount / source]
+
 ## 7. Gaps & Risks
 - [ ] [e.g. single point of failure — only one person has social login]
 - [ ] [e.g. website hasn't been updated in X months]
 - [ ] [e.g. inconsistent branding across flyers vs. social]
+
 ## 8. Where We Want to Get To (Goals)
-1. [Target outcome — e.g. unified brand kit in place]
+1. Launch our own Cayman Triathlon membership (replacing/supplementing racecaribbean.net) covering annual insurance, plus added-value benefits: shop/race discounts, access to coaching/training events — **target: end of 2027**
+2. Revive Facebook, Instagram, and Twitter/X, each with its own distinct content plan (not one-size-fits-all)
+3. [Target outcome — e.g. unified brand kit in place]
 2. [Target outcome — e.g. monthly newsletter live]
 3. [Target outcome — e.g. Instagram cadence 3x/week]
 4. [Target outcome]
 5. [Target outcome]
+
 ## 9. Immediate Next Steps
 1. [First action]
 2. [Second action]
 3. [Third action]
+
+---
+
+## Appendix: Questions for Board President — Section 1
+
+**Website (triathlon.ky)**
+1. Who currently has admin access to the website?
+2. When was it last meaningfully updated?
+3. Are you aware the newsletter signup block on the homepage isn't wired up to capture entries? Has anyone been checking whether sign-ups are being lost?
+4. ~~Is there a plan/timeline for the future Cayman Triathlon membership?~~ **Answered:** target is end of 2027.
+
+**Social Media**
+5. Who currently manages Facebook, Instagram, and Twitter/X — is it one person or split across board members?
+6. ~~Is there a reason Instagram/Twitter have been dormant~~ **Answered:** deprioritized as resources diminished, not a deliberate retirement.
+7. ~~Revive, retire, or leave as-is?~~ **Answered:** revive all three, each with its own distinct plan.
+
+**Email/Newsletter**
+8. Who owns the Mailchimp account/login?
+9. Roughly how large is the list, and how often are newsletters actually sent?
+10. Has anyone cross-checked whether new sign-ups from the website are making it into Mailchimp, given the broken signup form?
+
+**Print/Physical**
+11. Who currently designs event signage, sponsor boards, and flyers per event — a board member, volunteer, or outside vendor?
+12. Is there any shared template or brand asset used as a starting point, or does each event start from scratch?
+13. Who handles design/ordering for t-shirts, hats, and medals — same person/vendor as signage, or separate?
+
+**Press/Media Relations**
+14. Does the association have any existing relationships with local media (Cayman Compass, Loop Cayman, radio, etc.)?
+15. Has anyone historically reached out to press around races, or has coverage only ever been organic/unsolicited?
+
+**Photography**
+16. Who books event photographers, if anyone?
+17. What direction (if any) are photographers given — shot list, brand feel, must-capture moments?
+18. Do we have usage rights to the images taken, and are there any limitations (credit requirements, exclusivity, time limits)?
+
+---
+
+## Appendix: Questions for Board President — Section 2
+
+**Brand & Logo**
+19. Can we confirm there's no existing brand guideline document anywhere (old drives, past board member files, sponsor decks)?
+20. Who has the source/original files for the logo (vector format, not just a saved image off Facebook)?
+21. Is there an official color palette already in use anywhere (event materials, sponsor agreements) we should match, or are we free to define one?
+
+**Tone & Voice**
+22. Are there any events where a very different audience/tone is already expected (e.g. youth programs vs. competitive races) that a brand guideline should explicitly account for?
+
+**Photo/Video Library**
+23. Does any photo/video archive currently exist from past events, and if so, where (someone's personal drive, old Dropbox, Facebook albums only)?
+24. Are there any past agreements with photographers/sponsors that restrict how images can be reused (e.g. sponsor-owned content, model releases for minors in youth programs)?
+25. Who should be responsible for maintaining the library going forward once one is set up?
+
+**Merchandise (T-shirts, Hats, Medals)**
+26. Who currently handles design/ordering for event merchandise — a board member, volunteer, or vendor?
+27. Is merchandise design ever dictated or constrained by sponsors (e.g. sponsor logo placement requirements)?
+28. Is there any consistency at all currently (same vendor, same template) across different events' merchandise?
+
+---
+
+## Appendix: Questions for Board President — Section 3
+
+**Cadence & Ownership**
+29. Who is responsible for adding events to the website, and for posting updates to Facebook?
+30. What's the actual send cadence for the newsletter, and who decides when one goes out?
+
+**Event Promotion**
+31. Is there any reason a formal pre/during/post-race promotion timeline has never been put in place — bandwidth, ownership unclear, not seen as a priority?
+32. Are there any events where promotion worked especially well (or badly) that we should look at as a case study?
+
+**Volunteers**
+33. Is there an existing volunteer recruitment process at all (even informal, e.g. word of mouth, email list) that just isn't reflected on our public channels?
+34. Who currently coordinates volunteers once they do sign up?
+
+**Missed Events**
+35. Do we know why certain events didn't make it onto the Facebook page — oversight, no one assigned, event organized outside the usual channels?
+
+---
+
+## Appendix: Questions for Board President — Section 4
+
+**Analytics & Access**
+36. Do we have admin/insights access to Facebook and Instagram to pull real engagement and demographic data, or does that need to be requested/set up?
+37. Is anyone currently tracking Mailchimp open/click rates?
+
+**Board & Website Accuracy**
+38. Who's responsible for keeping the board member listing on the website current, and can we get it updated as a quick win?
+
+**Feedback**
+39. Has member/participant feedback ever been collected in any form (post-event surveys, informal comments), even if not systematically?
+
+**Growth Goals**
+40. Are there specific growth targets in mind (follower counts, engagement rates, volunteer numbers) for this platform push, or is that something marketing/comms should propose?
+41. How should we define success beyond vanity metrics — e.g. is there a way to track whether someone who engaged online actually showed up to volunteer or race?
