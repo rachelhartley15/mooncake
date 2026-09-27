@@ -8,7 +8,7 @@
 
 ## 1. Channels Inventory (Current State)
 - **Website:** [triathlon.ky](https://www.triathlon.ky/) — built on Squarespace. Intended role: informational hub covering events, volunteering, coaching, and youth programs (not a transaction/sign-up site). Newsletter signup block on homepage is **not configured with a storage location**, so sign-ups may not be captured — worth fixing regardless of the site's hub role. Last updated: unknown. Access/ownership: unknown — needs confirming.
-- **Membership/registration:** Handled via a separate site, [racecaribbean.net](https://racecaribbean.net/shop/memberships/cayman-islands-triathlon-association-annual-membership/), run by a fellow board member — this split (triathlon.ky = info hub, racecaribbean.net = sign-up) is intentional. **Future goal:** stand up our own Cayman Triathlon membership covering annual insurance plus added benefits (discounts at shops/races, access to coaching/training events) — see Section 8.
+- **Membership/registration:** Handled via a separate site, [racecaribbean.net](https://racecaribbean.net/shop/memberships/cayman-islands-triathlon-association-annual-membership/), also run by Trevor — this split (triathlon.ky = info hub, racecaribbean.net = registration) is intentional, as racecaribbean.net is better suited for event registration. Direction: event listings on triathlon.ky should link out to racecaribbean.net for registration. **Future membership goal** (annual insurance + added benefits) is being handled through a separate board channel, not tracked in this marketing/comms audit.
 - **Social media:**
   - Facebook: [CaymanIslandsTriathlonAssociation](https://www.facebook.com/CaymanIslandsTriathlonAssociation/) — ~1.4k followers. Posting is irregular, loosely tied to events, no consistent cadence.
   - Instagram: [@cayman_triathlon](https://www.instagram.com/cayman_triathlon/?hl=en) — 193 followers, 15 posts total, **nothing posted since 2016**.
@@ -48,27 +48,55 @@
 - Direction: focus on growing these platforms, and start measuring engagement — with a specific eye on how engagement translates into real-world outcomes (event participation, volunteer sign-ups), not just follower counts.
 
 ## 5. Sponsor & Partner Visibility
-- Current sponsor acknowledgment: [across which channels]
-- Contractual obligations: [being met / missed]
+- Current sponsor acknowledgment: **No sponsor visibility on website or social media at all** — no sponsor logos, mentions, or "become a sponsor" information on any digital channel. Sponsor presence exists only at the physical event level: t-shirts, banners, race-day information, and event announcements/shoutouts.
+- Contractual obligations: No formal contractual obligations known — assumption is sponsor commitments are limited to in-event deliverables (t-shirts, banners, on-site signage/announcements) rather than ongoing digital presence. **Needs confirming** with whoever manages sponsor agreements, since this is an assumption, not a verified fact.
+- Gap: The complete absence of sponsors on digital channels is a notable gap — sponsors are likely getting less value than they could, and there's no visible path for a business to become a sponsor.
 
 ## 6. Tools, Access & Ownership
-- Login/admin access: [who has what]
-- Handover documentation: [from predecessor, if any]
-- Budget currently allocated: [amount / source]
+- Login/admin access: Believed to be **Trevor only** — appears to hold access to all social media accounts and the website. Needs confirming as fact, not assumption, and treated as a priority given the single-point-of-failure risk (see Section 7).
+- Email domain: Unclear who owns/manages it, what it's used for, and who else (if anyone) has access — needs confirming.
+- Handover documentation: No known handover document from any predecessor — assumed not to exist, needs confirming.
+- Budget currently allocated: **None.**
 
 ## 7. Gaps & Risks
-- [ ] [e.g. single point of failure — only one person has social login]
-- [ ] [e.g. website hasn't been updated in X months]
-- [ ] [e.g. inconsistent branding across flyers vs. social]
+
+**Access & Continuity**
+- [x] Single point of failure — Trevor appears to be the only person with access to all social media and the website
+- [ ] No handover documentation exists (assumed) for this role or for platform access generally
+- [ ] Email domain ownership/access unclear
+
+**Branding & Consistency**
+- [ ] No brand guideline document, templates, or slide decks exist for logo, color, or font usage
+- [ ] Inconsistent logo across platforms (Instagram differs from Facebook/website)
+- [ ] No consistency across platforms and events generally — each event/channel largely does its own thing
+- [ ] Physical merchandise (t-shirts, hats, medals) design process/consistency unknown
+
+**Channels & Content**
+- [ ] Facebook updated only irregularly, with gaps as long as ~10 months (Nov 2025 to Sept 2026)
+- [ ] Instagram and Twitter/X effectively abandoned (dormant since 2016 and 2019 respectively) — no presence on two of four channels
+- [ ] Website is relatively up to date on events, but board member listing is outdated
+- [ ] Newsletter signup link on website is broken/not functioning
+- [ ] No consolidated calendar covering all events across swim, bike, and run
+- [ ] No coaching information published anywhere
+- [ ] No event promotion timeline or process — content is reactive, not planned
+- [ ] No consistent volunteer recruitment messaging across any channel
+- [ ] No sponsor visibility or "become a sponsor" information on any digital channel
+- [ ] No general promotion of the sport of triathlon itself (beyond specific event logistics)
+
+**Measurement**
+- [ ] No engagement metrics or KPIs currently tracked on any channel
+- [ ] No member/participant feedback mechanism in place
+- [ ] No member/volunteer database exists
 
 ## 8. Where We Want to Get To (Goals)
-1. Launch our own Cayman Triathlon membership (replacing/supplementing racecaribbean.net) covering annual insurance, plus added-value benefits: shop/race discounts, access to coaching/training events — **target: end of 2027**
-2. Revive Facebook, Instagram, and Twitter/X, each with its own distinct content plan (not one-size-fits-all)
-3. [Target outcome — e.g. unified brand kit in place]
-2. [Target outcome — e.g. monthly newsletter live]
-3. [Target outcome — e.g. Instagram cadence 3x/week]
-4. [Target outcome]
-5. [Target outcome]
+1. Revive Facebook, Instagram, and Twitter/X, each with its own distinct content strategy (not one-size-fits-all)
+2. Build a proper database of members and volunteers — defining what information to collect and how it will be securely stored/protected
+3. Establish KPI/metrics tracking — what to measure, how to collect analytics, and reporting cadence
+4. Update the triathlon.ky website with more current information (incl. board members, event links to racecaribbean.net for registration)
+5. Create a brand guidelines and strategy document (logo usage, color, fonts, tone/voice)
+6. Relaunch the newsletter with a proper, defined cadence
+7. Add a coaching section to the website
+8. Build a content calendar that aligns with the event calendar (swim, bike, run)
 
 ## 9. Immediate Next Steps
 1. [First action]
@@ -167,3 +195,41 @@
 **Growth Goals**
 40. Are there specific growth targets in mind (follower counts, engagement rates, volunteer numbers) for this platform push, or is that something marketing/comms should propose?
 41. How should we define success beyond vanity metrics — e.g. is there a way to track whether someone who engaged online actually showed up to volunteer or race?
+
+---
+
+## Appendix: Questions for Board President — Section 5
+
+**Sponsor Agreements & Obligations**
+42. Is there a sponsorship committee (or specific board member) who owns sponsor relationships, and can marketing/comms coordinate directly with them?
+43. Can we confirm, in writing, what each current sponsor's agreement actually includes — is it strictly in-event deliverables, or is there any expectation of digital presence we're currently missing?
+
+**Sponsor Expectations**
+44. Has anyone asked current sponsors what they'd actually want or expect in terms of visibility (website mention, social shoutouts, etc.), or has that never come up?
+45. Are there different sponsor tiers (e.g. title sponsor vs. supporting sponsor) with different visibility entitlements we should know about?
+
+**Process Going Forward**
+46. Would it make sense to set up a regular sync between marketing/comms and the sponsorship committee ahead of each event, so sponsor needs are known in advance rather than handled ad hoc?
+47. Who should be the point of contact for a prospective new sponsor if one reaches out through the website or social media?
+
+---
+
+## Appendix: Questions for Board President — Section 6
+
+**Access & Continuity**
+48. Can we confirm Trevor is genuinely the only person with access to all social media accounts and the website?
+49. If Trevor were unavailable (illness, resignation, etc.), is there any recovery plan to regain access?
+50. Can we get at least one additional trusted person added as admin/backup across these accounts as a near-term priority?
+
+**Email Domain**
+51. Who owns/manages the email domain, and where is it registered/hosted?
+52. What is it currently used for (board email, general inquiries, event-specific addresses)?
+53. Who else, if anyone, has access to it?
+
+**Handover & Documentation**
+54. Can we confirm there's genuinely no handover documentation from previous marketing/comms board members?
+55. Going forward, should we require a handover document as part of any board transition in this role?
+
+**Budget**
+56. Is there truly zero budget allocated to marketing/comms, or is spending handled ad hoc/reimbursed rather than formally budgeted?
+57. If we wanted to request a budget line for next year (e.g. for tools, ads, or design work), what's the process and timeline for that?
