@@ -22,7 +22,7 @@
 
 ## 2. Brand & Messaging Consistency
 - Logo/brand guidelines: **No single consistent logo.** Facebook's logo matches the website; Instagram uses a different logo. Facebook and the website are the most up-to-date and should be the reference point going forward. **No known brand guideline document exists — needs confirming.** A guideline should be created covering: correct logo usage, color palette + how to apply it, and typography/fonts.
-- Tone/voice: Currently unclear/inconsistent — hard to assess with so little recent posting (esp. Instagram, dormant since 2016). Goal: consistency across channels and events so everything feels recognizably "Cayman Triathlon," while allowing intentional flexibility — different events can target different audiences and have slight tonal differences on top of the shared base identity.
+- Tone/voice: Currently unclear/inconsistent — hard to assess with so little recent posting (esp. Instagram, dormant since 2016). Goal: consistency across channels and events so everything feels recognizably "Cayman Triathlon," while allowing intentional flexibility — different events can target different audiences and have slight tonal differences on top of the shared base identity. **Target tone direction:** beginner-friendly and welcoming first, while still leaving room to invite competition — we're a developing club, not an elite-focused federation. Strongly community-focused given Cayman's small-island size — content should highlight what people in the local community are actually doing (everyday members, not just top finishers), not just race results.
 - Photo/video asset library: Unknown whether one currently exists — needs confirming. Also need to define, going forward: where photos/videos/documents are stored, and usage guidance (what photos can be used for, any restrictions).
 - Physical/merch branding (t-shirts, hats, medals): Design process and level of consistency unknown — needs confirming, including whether design is sponsor-determined.
 
@@ -97,11 +97,57 @@
 6. Relaunch the newsletter with a proper, defined cadence
 7. Add a coaching section to the website
 8. Build a content calendar that aligns with the event calendar (swim, bike, run)
+9. Build/maintain a consolidated community events calendar covering all known swim, bike, and run events — not just triathlons — to encourage broader multisport participation
+10. Curate and publish resources for joining the community beyond racing: local run clubs, swim clubs, and cycling groups, so people have a way in even if they're not ready to race
+11. **Increase female participation**
+12. **Increase youth participation**
 
-## 9. Immediate Next Steps
-1. [First action]
-2. [Second action]
-3. [Third action]
+*Note: The future Cayman Triathlon membership (annual insurance + benefits) is being tracked separately through another board channel and is out of scope for this marketing/comms audit.*
+
+## 9. Reference Examples — Sites & Socials to Emulate
+Benchmarking other national/regional triathlon associations for information architecture, tone of voice, target audience, and content type.
+
+| Organization | Website / Social | What stands out |
+|---|---|---|
+| **British Triathlon** | [britishtriathlon.org](https://www.britishtriathlon.org) | Institutional, structured tone. Event search covers 800+ permitted events by type/date/region. Tiered coach membership (Coach Essential vs. Coach Plus) bundling insurance + discounts — relevant precedent for our own future membership benefits idea (Section 8). Strong regional structure (England/Scotland/Wales news feeds). |
+| **USA Triathlon** | [usatriathlon.org](https://www.usatriathlon.org) | 400,000+ members. "Membership Hub" personalizes the experience per user (dashboard, rankings, sponsor discounts). Weekly training tips from certified coaches drive recurring content. Explicit **"Sponsor Real Estate"** — members get direct access to sponsor discounts/promos, a strong model for our sponsor-visibility gap (Section 5). |
+| **AusTriathlon** (Triathlon Australia) | [triathlon.org.au](https://www.triathlon.org.au) | Best beginner/youth engagement model found: **"The Starting Line"** (free 8-week beginner pathway, "everyone has a starting line" messaging) and **"Aus3"** (free gamified kids' program — kids log swim/bike/run to earn power-ups and move an avatar around Australia). Also has a live news feed of elite race results, a Coach Finder tool, and clear sponsor/partner logo placement on the homepage. |
+| **Triathlon Canada** | [triathloncanada.com](https://www.triathloncanada.com) | Bilingual (English/French) — relevant if we ever want multi-audience content. Tagline-driven brand voice: *"One Leaf. Three sports. No limits."* Runs a named newsletter (**"CAN CREW"**) pitched as "athlete stories and behind-the-scenes access" rather than generic updates — good naming/positioning model for our own newsletter relaunch (Section 8). |
+| **Bermuda Triathlon Association** | [bermuda.triathlon.org](https://bermuda.triathlon.org) | Closest comparable to us in scale — small island nation, ~5 events/year. Notable for hosting a major international event (WTS Bermuda) alongside local racing; FAQ structure handles both casual local athletes and international travelers. Runs free kids' coaching clinics as standing community programming. Social media presence not yet reviewed in depth. |
+| **Fédération Française de Triathlon** | [fftri.com](http://www.fftri.com) | Large scale (75,000+ licensed members, 1,000+ clubs) but structurally relevant: a labeled **"Coaching Triathlon Santé"** (health-coaching) program certifies specific clubs for a health/wellness angle rather than pure competition — an interesting model if we want to broaden appeal beyond racing. Long-standing named sponsor partnerships (e.g. equipment retailer as "Official Distributor"). |
+
+**Recurring patterns worth stealing:**
+- **Split beginner vs. elite tone** (AusTriathlon's "Starting Line," British Triathlon's Go Tri) rather than one voice for everyone
+- **Named, benefit-forward newsletter** (Triathlon Canada's "CAN CREW") instead of a generic mailing list
+- **Explicit sponsor visibility/benefits on-site** (USA Triathlon's "Sponsor Real Estate") — directly addresses our Section 5 gap
+- **Free youth/kids programming as its own branded initiative** (Aus3) — could inform our coaching/youth section
+- **Tiered membership bundling insurance + perks** (British Triathlon coach memberships) — relevant precedent for the future Cayman Triathlon membership being tracked elsewhere
+
+### Instagram Observations
+
+| Organization | Feed Content | Consistency & Branding | Stories |
+|---|---|---|---|
+| **Triathlon Canada** | Mainly World Triathlon events, race results, athlete-focused | Consistent posting, consistent color scheme/imagery | Mostly reposts of others' tags — not much original story content. Solid but not innovative. |
+| **USA Triathlon** | Elite athletes **and** local/grassroots events; some informational posts | Very consistent posting; feed feels "human and lived-in"; image-led, minimal text, similar visual feel across posts | Original content featuring their own athletes at races — not just reposts. |
+| **British Triathlon** | Athlete-focused, not very community-focused | Feels human via strong photo/video quality | Mix of race-day coverage and resharing their own posts/tagged content |
+| **AusTriathlon** | Feels scattered — more about people generally than the sport specifically | Inconsistent; feels underdeveloped for the org's size | Busy, less curated — mostly race day plus whatever people tag them in |
+| **Bermuda Triathlon Association** | Community-focused | Consistent posting and branding/color scheme, but **too much text on images**; some gaps in posting cadence | — |
+| **Fédération Française de Triathlon** | Athlete-focused, good mix of showcasing the sport and the athletes | Consistent branding | Mainly race day |
+
+**Where Cayman Triathlon sits today:** Bermuda is the closest comparable — small island nation, community-focused — and is likely the closest match to where our own Instagram would land if revived today. That makes Bermuda a good "realistic near-term" reference, while USA Triathlon (consistent, human, image-led, own-content stories) is a good "aspirational" reference once we have more resourcing.
+
+**Our target tone (per Section 2):** We're a developing club with no professional/elite athletes — tone should be beginner-friendly and welcoming first, while still inviting competition for those who want it. Given Cayman's small size, we want to lean **more community-focused than any of the six examples above** — closer to Bermuda's community angle, but pushed further: regularly highlighting everyday things community members are doing (not just podium finishers or elite race recaps), which none of the six benchmarked orgs do particularly well.
+
+**Takeaways for our own revival:**
+- Avoid over-texted images (Bermuda's issue) — keep image-led, minimal on-image text (USA Triathlon's approach)
+- Avoid relying only on reposts/tags for Stories (Canada, British) — build toward original story content over time (USA Triathlon)
+- Don't let content drift toward "people in general" at the expense of the sport itself (AusTriathlon's issue)
+- Consistency in posting and a fixed color scheme matters more than being flashy — several of the stronger pages (Canada, USA, France) aren't especially innovative, just consistent
+
+## 10. Immediate Next Steps
+1. Send the appendix questions to the board president and get answers on the open unknowns/gaps across all sections
+2. Draft a brand guidelines and content strategy document (logo usage, color, fonts, tone/voice, per Section 8 goal #5) and bring it to the board for agreement/sign-off
+3. Set clear marketing/comms goals and define how we'll measure them — what we hope to achieve and how we'll know if it's working (ties to Section 8 goal #3, KPI/metrics tracking), with **increasing female participation** and **increasing youth participation** as headline goals to build the strategy around
 
 ---
 
@@ -111,7 +157,7 @@
 1. Who currently has admin access to the website?
 2. When was it last meaningfully updated?
 3. Are you aware the newsletter signup block on the homepage isn't wired up to capture entries? Has anyone been checking whether sign-ups are being lost?
-4. ~~Is there a plan/timeline for the future Cayman Triathlon membership?~~ **Answered:** target is end of 2027.
+4. ~~Is there a plan/timeline for the future Cayman Triathlon membership?~~ **Answered:** target is end of 2027. (Note: this initiative is tracked through a separate board channel, not this audit — see Section 1.)
 
 **Social Media**
 5. Who currently manages Facebook, Instagram, and Twitter/X — is it one person or split across board members?
@@ -229,7 +275,3 @@
 **Handover & Documentation**
 54. Can we confirm there's genuinely no handover documentation from previous marketing/comms board members?
 55. Going forward, should we require a handover document as part of any board transition in this role?
-
-**Budget**
-56. Is there truly zero budget allocated to marketing/comms, or is spending handled ad hoc/reimbursed rather than formally budgeted?
-57. If we wanted to request a budget line for next year (e.g. for tools, ads, or design work), what's the process and timeline for that?
